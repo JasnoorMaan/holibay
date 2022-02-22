@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script rel="javascript" type="text/javascript" src="app.js"></script>
+    <title>holibay</title>
+</head>
+
+<body>
+
+    <! top division for dark mode login and heading!>
+    <div class="div1">
+        <h1 class="h">holibay</h1>
+
+
+        <! combined code for dark mode uptil JS!>
+        <style>
+            body {
+                padding: 25px;
+                background-color: white;
+                color: black;
+                font-size: 25px;
+            }
+            
+            .dark-mode {
+                background-color: black;
+                color: white;
+            }
+        </style>
+        </head>
+
+        <body>
+            <! button html for dark mode!>
+            <button class="darkbtn" onclick="myFunction()">Go Dark</button>
+        </body>
+
+
+        <! JS code!>
+        <script>
+            function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+            }
+        </script>
+        <button class="login">Login/Signup</button>
+    </div>
+
+
+
+    <!Nav Bar  with pill buttons!>
+    <div class="pill-nav" center>
+        <a href="#Stay">Stay with the Best</a>
+        <a href="#Eat">Eat the Best</a>
+        <a href="#Explore">Explore</a>
+        <a href="#contact">Contact</a>
+    </div>
+
+
+    <!hey traveller tile with image, text and button!>
+    <div>
+        <img class="image" src="imgs\frontpic.jpg" alt="default" width="1450" height="750">
+        <h1 class="t">Hey Travellers
+            <style></style>!</h1>
+        <p class="para1"> So you do not know about the city your travelling to</p>
+        <button type="button" class="big1" onclick="">Its the right place</button>
+    </div>
+
+
+    </br>
+    <!line break for both images!>
+
+
+
+    <! second image with text and drop down menu button!>
+    <div class="div2">
+        <img class="img2" src="imgs\secondpic.jpg" alt="cityselector" width="1450" height="750">
+        <h1 class="end">Where are you right now?</h1>
+        <div class="dropbox">
+            <button class="dropbtn">Select the city</button>
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropcontent">
+                <a href="#mumbai">Mumbai</a>
+                <a href="#NewYork">New York City</a>
+                <a href="#LosAngeles">Los Angeles</a>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
