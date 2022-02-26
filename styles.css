@@ -4,7 +4,85 @@
     font-family: dosis;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@font-face {
+    src: url(fonts/Dosis-ExtraBold.ttf);
+    font-family: dosis;
+}
 
+
+/*font importing*/
+#site_title{
+font-size: 33px;
+font-family: dosis;
+font-weight: bolder;
+}
+/* .city_back{
+  background: url("images/imgs/travel.png")
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+} */
+a.top_bar {
+    color: #B7938B;
+    font-weight: 500;
+    border-style: solid;
+    border-width: thin;
+    border-radius: 20px;
+    display: inline-block;
+    text-decoration: none;
+    position: relative;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top:1%;
+    padding-bottom:1%;
+}
+.col-12{
+  height: 50%;
+}
+.img-fluid {
+    width:69%;
+}
+.city{
+    margin-top: 101px;
+}
+.rounded {
+    border-radius: 1.25rem!important;
+}
+.city_stuff{
+  position: absolute;
+  margin-top: 200px;
+  width: auto;
+  height: 100px;
+}
+
+.city_name{
+
+  /* top: 33%; */
+  color:white;
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 81px;
+  text-align: center;
+}
+.btn {
+  /* position: absolute;
+  top: 71%; */
+  /* left: 50%; */
+  margin-left: 173px;
+  margin-top: 232px;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #dc3546;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.container .btn:hover {
+  background-color: #ea8690;
+}
 /*font importing*/
 
 
